@@ -1,0 +1,74 @@
+<!-- WEEK-1 1(a) -->
+
+
+<!DOCTYPE html>
+<head>
+<title>HTML Lists Example</title>
+</head>
+<body>
+<h1>Demonstration of HTML lists </h1>
+
+<!--Oredered list -->-
+<h2>1.Ordered List </h2>
+<ol>
+    <li>First item</li>
+    <li>second item</li>
+    <li>third item</li>
+</ol>
+
+<!--Unordered list-->
+<h2>2.Unoredered List</h2>
+
+<ul>
+   <li>APPLE</li>
+   <li>BANANA</li>
+   <li>MANGO</li>
+</ul>
+
+<!--NESTED LIST-->
+<h2>3.Nested list(unordered inside ordered) </h2>
+<ol>
+
+    <li>Vegetables
+          <ul>
+              <li>CARROT</li>
+              <li>BRINJAL</li>
+              <li>BEETROOT</li>
+          </ul>
+    </li>
+    <li>Meat
+          <ul>
+            <li>CHICKEN</li>
+            <li>MUTTON</li>
+            <li>PRAWNS</li>
+         </ul>
+    </li>
+</ol>
+
+<!--Oredered List inside Unordered List-->
+
+<h2>4.Ordered List inside Unordered List</h2>
+<ul>
+<li>Steps to Prepare Tea:
+      <ol>
+              <li>Boil water</li>
+              <li>Add Tea Leaves</li>
+              <li>Strain and serve</li>
+      </ol>
+</li>
+</ul>
+
+<!--Definition List-->
+<h2>5.Defintion List</h2>
+<dl>
+    <dt>HTML</dl>
+       <dd>Hyper Text Markup Language, used to creste webpages.</dd>
+
+    <dt>CSS</dt>
+       <dd>Cascading style sheets,used to style HTML elements.</dd>
+    
+    <dt>JS</dt>
+       <dd>Programming language that adds interactivity to websites.</dd>
+
+</body>
+</html>
